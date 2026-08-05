@@ -60,11 +60,11 @@
       color: black;
     }
 
-    @media only screen and (max-width:730px){
-      .datavisulization{
-          display: none;
+    @media only screen and (max-width:730px) {
+      .datavisulization {
+        display: none;
       }
-  }
+    }
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -87,7 +87,7 @@
   <script type="text/javascript" src="./js/MathJaxSetup.js">
   </script>
 
-  
+
 
   <title> CPU scheduling</title>
 </head>
@@ -96,7 +96,7 @@
 <body>
 
   <nav style="background-color: #151D3B;" class="navStyle">
-    <a href="./index.html" style="color: #fff;">OS LAB</a>
+    <a href="../index.html" style="color: #fff;">OS LAB</a>
     <div class="nav-links" id="navLinks">
       <i class="fas fa-window-close" onclick="hideMenu()"></i>
       <ul>
@@ -362,42 +362,42 @@
 
 
     <div class="datavisulization">
-    <h2 style="text-align: center; margin-bottom: 40px;">Data Visulization</h2>
+      <h2 style="text-align: center; margin-bottom: 40px;">Data Visulization</h2>
 
 
-    <!-- <div class="barChart">
+      <!-- <div class="barChart">
       <canvas id="myBarChart"></canvas>
     </div> -->
 
-    <hr>
-    <div class="pie" id="chartdiv">
-      <div class="first">
-        <div class="chartMenu">
-          <p>Waiting Time Chart</p>
-        </div>
-        <div class="chartCard">
-          <div class="chartBox">
-            <canvas id="myChart" width="400" height="400"></canvas>
-            <!-- <canvas id="myChart"></canvas> -->
+      <hr>
+      <div class="pie" id="chartdiv">
+        <div class="first">
+          <div class="chartMenu">
+            <p>Waiting Time Chart</p>
           </div>
-        </div>
-
-
-      </div>
-      <div class="second">
-        <div class="chartMenu">
-          <p>Turn around Time Chart</p>
-        </div>
-        <div class="chartCard">
-          <div class="chartBox">
-            <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
-            <canvas id="mytatChart" width="400" height="400"></canvas>
+          <div class="chartCard">
+            <div class="chartBox">
+              <canvas id="myChart" width="400" height="400"></canvas>
+              <!-- <canvas id="myChart"></canvas> -->
+            </div>
           </div>
-        </div>
 
+
+        </div>
+        <div class="second">
+          <div class="chartMenu">
+            <p>Turn around Time Chart</p>
+          </div>
+          <div class="chartCard">
+            <div class="chartBox">
+              <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+              <canvas id="mytatChart" width="400" height="400"></canvas>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
 
 
     <span style="font-size: large; color: rgb(3, 27, 94);">CPU Utilization:
@@ -411,19 +411,19 @@
     </span>
 
     <button id="explanation">Show Explanation</button>
-  
 
-      <div class="explain container_docs" id="ex">
-        <h1>Algorithm Explanation</h1>
-        <p style="color: #FD5D5D; font-size: large;">User Input :</p>
-        <p id="input"></p>
-        <p id="steps"></p>
-      </div>
+
+    <div class="explain container_docs" id="ex">
+      <h1>Algorithm Explanation</h1>
+      <p style="color: #FD5D5D; font-size: large;">User Input :</p>
+      <p id="input"></p>
+      <p id="steps"></p>
+    </div>
 
   </div><!-- /containter -->
 
   <section class="footer">
-    
+
 
     <div class="icons">
       <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -440,15 +440,15 @@
 
 
 
-  
+
   <!-- <script src="js/new.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"
     integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="./js/cpu-scheduler.js"> </script>
-  
+  <script src="./js/cpu-scheduler.js"> </script>
+
 
   <script>
     var navLinks = document.getElementById("navLinks");
