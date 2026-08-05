@@ -23,9 +23,9 @@ A browser-based CPU scheduling simulator for learning and comparing classic oper
 - `index.html` - landing page for the virtual lab
 - `docs.html` - CPU scheduling notes and algorithm explanations
 - `about.html` - team/about page
-- `backend/ganttcharts.html` - main interactive simulator
-- `backend/js/` - scheduling logic and UI scripts
-- `backend/css/` - simulator styles
+- `simulator/ganttcharts.html` - main interactive simulator
+- `simulator/js/` - scheduling logic and UI scripts
+- `simulator/css/` - simulator styles
 - `style.css` / `docs.css` - site-wide and documentation styling
 
 ## Getting Started
@@ -46,7 +46,7 @@ This project is a static website, so no build step is required.
 
 ## How to Use the Simulator
 
-1. Open the simulator from the homepage or by visiting `backend/ganttcharts.html`.
+1. Open the simulator from the homepage or by visiting `simulator/ganttcharts.html`.
 2. Enter process arrival times, burst times, and priorities.
 3. Choose a scheduling algorithm from the dropdown.
 4. Adjust the number of processes if needed.
